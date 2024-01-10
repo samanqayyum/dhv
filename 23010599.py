@@ -332,7 +332,7 @@ def display_text():
         "Student ID: 23010599"
 
     # Adjust text font, fontsize and position
-    plt.text(0.5, 0.5, text, ha='center', va='center', fontsize=14,
+    plt.text(0.3, 0.5, text, ha='center', va='center', fontsize=14,
              color='darkred', fontstyle='italic', fontweight='bold')
 
     # Turn off axis for this subplot
